@@ -5,15 +5,15 @@ const Post = (props) => {
     return (
         <div>
             <div>
-                <div>Name{props.posts.name}</div>
-                <div>Text{props.posts.text}</div>
+                <div>Name: {props.posts.name}</div>
+                <div>Post: {props.posts.text}</div>
             </div>
             <div className="flex-buttons">
                 <div>
-                <LikeButton likemessage = 'Like'/>
+                    <LikeButton likemessage = 'Like'/>
                 </div>
                 <div>
-                <DislikeButton dislikemessage = 'Dislike'/>
+                    <DislikeButton dislikemessage = 'Dislike'/>
                 </div>
             </div>
         </div>

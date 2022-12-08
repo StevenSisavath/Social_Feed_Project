@@ -21,3 +21,9 @@ ul {
     background: #ebfffc;
 }
 
+.create-post-flex-container{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border: 5px;
+}

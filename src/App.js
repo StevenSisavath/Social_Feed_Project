@@ -14,9 +14,15 @@ function App() {
 
     return (
       <div className='background'>
+        <div>
           <NavBar/>
+        </div>
+        <div className='create-post-flex-container'>
           <CreatePostForm addNewPostProperty={addNewPost}/>
+        </div>
+        <div className='create-post-flex-container'>
           <PostList parentPosts={posts}/>
+        </div>
           <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       </div>
   );
