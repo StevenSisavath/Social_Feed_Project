@@ -13,7 +13,7 @@ function App() {
     }
 
     return (
-      <div>
+      <div className='background'>
           <NavBar/>
           <CreatePostForm addNewPostProperty={addNewPost}/>
           <PostList parentPosts={posts}/>

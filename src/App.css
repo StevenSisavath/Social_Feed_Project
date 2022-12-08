@@ -1,0 +1,23 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 5em;
+    width: auto;
+    align-items: center;
+    box-shadow: 0 5px 6px #777;
+  }
+
+  li {
+    float: left;
+    display: block;
+    color: black;
+    font-size: xx-large;
+  }
+
+.background{
+    background: #ebfffc;
+}
