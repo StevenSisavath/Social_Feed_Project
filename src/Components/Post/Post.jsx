@@ -1,10 +1,21 @@
+import LikeButton from "../LikeButton/LikeButton";
+import DislikeButton from "../DislikeButton/DislikeButton";
+
 const Post = (props) => {
     return (
         <div>
-            <div>Name{props.posts.name}</div>
-            <div>Text{props.posts.text}</div>
-            <button>Like{props.posts.like}</button>
-            <button>Dislike{props.posts.dislike}</button>
+            <div>
+                <div>Name{props.posts.name}</div>
+                <div>Text{props.posts.text}</div>
+            </div>
+            <div className="flex-buttons">
+                <div>
+                <LikeButton likemessage = 'Like'/>
+                </div>
+                <div>
+                <DislikeButton dislikemessage = 'Dislike'/>
+                </div>
+            </div>
         </div>
      );
 }
